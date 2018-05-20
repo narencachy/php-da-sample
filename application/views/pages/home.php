@@ -13,22 +13,22 @@
             <img data-src="<?php echo base_url("assets/images/sb_1.jpg");?>" alt="900x500" src="<?php echo base_url("assets/images/banner-1.jpg");?>">
             <div class="carousel-caption">
                 <h3> Varial Kick Flip </h3>
-                <p> Do a Kick Flip or some serious Technical Skating on Motion Board 9000<B>(NARESH)</B></p>
+                <p> Do a Kick Flip or some serious Technical Skating on Motion Board 9000</p>
             </div>
         </div>
         <div class="item" onclick="location.href='<?php echo base_url();?>product'">
             <img data-src="<?php echo base_url("assets/images/sb_2.jpg");?>" alt="900x500" src="<?php echo base_url("assets/images/banner-2.jpg");?>">
             <div class="carousel-caption">
                 <h3> Carve </h3>
-                <p> Carve your new style on Motion 9000.<B>(NARESH)</B></p>
+                <p> Carve your new style on Motion 9000.</p>
             </div>
         </div>
 
         <div class="item active" onclick="location.href='<?php echo base_url();?>product'">
             <img data-src="<?php echo base_url("assets/images/sb_4.jpg");?>" alt="900x500" src="<?php echo base_url("assets/images/banner-3.jpg");?>">
             <div class="carousel-caption">
-                <h3>Pro Skate Board Motion 9000<B>(NARESH)</B></h3>
-                <p> Do all your cool stuff on Contoso board Motion 9000.<B>(NARESH)</B></p>
+                <h3>Pro Skate Board Motion 9000</h3>
+                <p> Do all your cool stuff on Contoso board Motion 9000.</p>
             </div>
         </div>
     </div>
@@ -49,7 +49,7 @@
             <div class="col-lg-4 col-md-4">
                 <div class="news-panel-title">
                     <div class="news-panel-title-icon"></div>       
-                    <div class="news-panel-title-caption"> News<B>(NARESH)</B> </div>
+                    <div class="news-panel-title-caption"> News </div>
                 </div>
                 <div class="clear_both panel-content"> 
                     <?php echo (isset($news_panel)) ? $news_panel : ''; ?>
@@ -59,7 +59,7 @@
             <div class="col-lg-4 col-md-4">
                 <div class="discussion-panel-title">
                     <div class="discussion-panel-title-icon"></div>
-                    <div class="discussion-panel-title-caption"> Community<B>(NARESH)</B> </div>
+                    <div class="discussion-panel-title-caption"> Community </div>
                 </div>
                 <div class="clear_both panel-content"> 
                     <?php echo (isset($posts_panel)) ? $posts_panel : ''; ?>
